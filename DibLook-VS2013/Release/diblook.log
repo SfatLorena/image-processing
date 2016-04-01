@@ -1,0 +1,46 @@
+﻿Build started 30-Mar-16 06:06:25 PM.
+     1>Project "C:\Users\Admin\OneDrive\An 3\Sem II\IP\DibLook-VS2013-lorena-lab2\DibLook-VS2013\diblook.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /D _AFXDLL /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"Stdafx.h" /Fp".\Release/diblook.pch" /Fo".\Release/" /Fd".\Release/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt dibview.cpp
+         dibview.cpp
+     1>dibview.cpp(387): warning C4244: '=' : conversion from 'double' to 'BYTE', possible loss of data
+     1>dibview.cpp(388): warning C4244: '=' : conversion from 'double' to 'BYTE', possible loss of data
+     1>dibview.cpp(389): warning C4244: '=' : conversion from 'double' to 'BYTE', possible loss of data
+     1>dibview.cpp(536): warning C4101: 'FDPValues' : unreferenced local variable
+     1>dibview.cpp(566): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>dibview.cpp(567): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>dibview.cpp(600): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>dibview.cpp(620): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>dibview.cpp(693): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>dibview.cpp(713): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>dibview.cpp(736): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>dibview.cpp(738): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>dibview.cpp(739): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>dibview.cpp(740): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>dibview.cpp(741): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>dibview.cpp(732): warning C4101: 'dist' : unreferenced local variable
+     1>dibview.cpp(886): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>dibview.cpp(1049): warning C4101: 'twoY' : unreferenced local variable
+     1>dibview.cpp(1336): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>dibview.cpp(1412): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\admin\onedrive\an 3\sem ii\ip\diblook-vs2013-lorena-lab2\diblook-vs2013\dibview.cpp(1108): warning C4715: 'findRoot' : not all control paths return a value
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release/diblook.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /PDB:".\Release/diblook.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE:NO /IMPLIB:".\Release\diblook.lib" /MACHINE:X86 /SAFESEH:NO .\Release\diblook.res
+         .\Release/BitmapInfoDlg.obj
+         .\Release/dibapi.obj
+         .\Release/dibdoc.obj
+         .\Release/diblook.obj
+         .\Release/dibview.obj
+         .\Release/DlgHistogram.obj
+         .\Release/Histogram.obj
+         .\Release/HRTimer.obj
+         .\Release/mainfrm.obj
+         .\Release/myfile.obj
+         .\Release/stdafx.obj
+     1>LINK : fatal error LNK1104: cannot open file '.\Release/diblook.exe'
+     1>Done Building Project "C:\Users\Admin\OneDrive\An 3\Sem II\IP\DibLook-VS2013-lorena-lab2\DibLook-VS2013\diblook.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.36

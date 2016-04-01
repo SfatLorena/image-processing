@@ -1,0 +1,55 @@
+﻿Build started 30-Mar-16 07:29:23 PM.
+     1>Project "C:\Users\Admin\OneDrive\An 3\Sem II\IP\DibLook-VS2013-lorena-lab2\DibLook-VS2013\diblook.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"Stdafx.h" /Fp".\Debug/diblook.pch" /Fo".\Debug/" /Fd".\Debug/vc120.pdb" /FR".\Debug/" /Gd /TP /analyze- /errorReport:prompt dibview.cpp
+         dibview.cpp
+     1>c:\users\admin\onedrive\an 3\sem ii\ip\diblook-vs2013-lorena-lab2\diblook-vs2013\dibview.cpp(388): warning C4244: '=' : conversion from 'double' to 'BYTE', possible loss of data
+     1>c:\users\admin\onedrive\an 3\sem ii\ip\diblook-vs2013-lorena-lab2\diblook-vs2013\dibview.cpp(389): warning C4244: '=' : conversion from 'double' to 'BYTE', possible loss of data
+     1>c:\users\admin\onedrive\an 3\sem ii\ip\diblook-vs2013-lorena-lab2\diblook-vs2013\dibview.cpp(390): warning C4244: '=' : conversion from 'double' to 'BYTE', possible loss of data
+     1>c:\users\admin\onedrive\an 3\sem ii\ip\diblook-vs2013-lorena-lab2\diblook-vs2013\dibview.cpp(537): warning C4101: 'FDPValues' : unreferenced local variable
+     1>c:\users\admin\onedrive\an 3\sem ii\ip\diblook-vs2013-lorena-lab2\diblook-vs2013\dibview.cpp(567): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\admin\onedrive\an 3\sem ii\ip\diblook-vs2013-lorena-lab2\diblook-vs2013\dibview.cpp(568): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\admin\onedrive\an 3\sem ii\ip\diblook-vs2013-lorena-lab2\diblook-vs2013\dibview.cpp(601): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\admin\onedrive\an 3\sem ii\ip\diblook-vs2013-lorena-lab2\diblook-vs2013\dibview.cpp(621): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\admin\onedrive\an 3\sem ii\ip\diblook-vs2013-lorena-lab2\diblook-vs2013\dibview.cpp(694): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\admin\onedrive\an 3\sem ii\ip\diblook-vs2013-lorena-lab2\diblook-vs2013\dibview.cpp(714): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\admin\onedrive\an 3\sem ii\ip\diblook-vs2013-lorena-lab2\diblook-vs2013\dibview.cpp(737): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\admin\onedrive\an 3\sem ii\ip\diblook-vs2013-lorena-lab2\diblook-vs2013\dibview.cpp(739): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\admin\onedrive\an 3\sem ii\ip\diblook-vs2013-lorena-lab2\diblook-vs2013\dibview.cpp(740): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\admin\onedrive\an 3\sem ii\ip\diblook-vs2013-lorena-lab2\diblook-vs2013\dibview.cpp(741): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\admin\onedrive\an 3\sem ii\ip\diblook-vs2013-lorena-lab2\diblook-vs2013\dibview.cpp(742): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\admin\onedrive\an 3\sem ii\ip\diblook-vs2013-lorena-lab2\diblook-vs2013\dibview.cpp(733): warning C4101: 'dist' : unreferenced local variable
+     1>c:\users\admin\onedrive\an 3\sem ii\ip\diblook-vs2013-lorena-lab2\diblook-vs2013\dibview.cpp(887): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\admin\onedrive\an 3\sem ii\ip\diblook-vs2013-lorena-lab2\diblook-vs2013\dibview.cpp(1050): warning C4101: 'twoY' : unreferenced local variable
+     1>c:\users\admin\onedrive\an 3\sem ii\ip\diblook-vs2013-lorena-lab2\diblook-vs2013\dibview.cpp(1337): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\admin\onedrive\an 3\sem ii\ip\diblook-vs2013-lorena-lab2\diblook-vs2013\dibview.cpp(1415): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\admin\onedrive\an 3\sem ii\ip\diblook-vs2013-lorena-lab2\diblook-vs2013\dibview.cpp(1533): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\admin\onedrive\an 3\sem ii\ip\diblook-vs2013-lorena-lab2\diblook-vs2013\dibview.cpp(1543): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\users\admin\onedrive\an 3\sem ii\ip\diblook-vs2013-lorena-lab2\diblook-vs2013\dibview.cpp(1545): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>c:\users\admin\onedrive\an 3\sem ii\ip\diblook-vs2013-lorena-lab2\diblook-vs2013\dibview.cpp(1538): warning C4101: 'i' : unreferenced local variable
+     1>c:\users\admin\onedrive\an 3\sem ii\ip\diblook-vs2013-lorena-lab2\diblook-vs2013\dibview.cpp(1109): warning C4715: 'findRoot' : not all control paths return a value
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/diblook.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:".\Debug/diblook.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE:NO /IMPLIB:".\Debug\diblook.lib" /MACHINE:X86 /SAFESEH:NO .\Debug\diblook.res
+         .\Debug/BitmapInfoDlg.obj
+         .\Debug/dibapi.obj
+         .\Debug/dibdoc.obj
+         .\Debug/diblook.obj
+         .\Debug/dibview.obj
+         .\Debug/DlgHistogram.obj
+         .\Debug/Histogram.obj
+         .\Debug/HRTimer.obj
+         .\Debug/mainfrm.obj
+         .\Debug/myfile.obj
+         .\Debug/stdafx.obj
+         diblook.vcxproj -> C:\Users\Admin\OneDrive\An 3\Sem II\IP\DibLook-VS2013-lorena-lab2\DibLook-VS2013\.\Debug\diblook.exe
+       BscMake:
+         D:\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o".\Debug/diblook.bsc" .\Debug/BitmapInfoDlg.sbr .\Debug/dibapi.sbr .\Debug/dibdoc.sbr .\Debug/diblook.sbr .\Debug/dibview.sbr .\Debug/DlgHistogram.sbr .\Debug/Histogram.sbr .\Debug/HRTimer.sbr .\Debug/mainfrm.sbr .\Debug/myfile.sbr .\Debug/stdafx.sbr
+     1>Done Building Project "C:\Users\Admin\OneDrive\An 3\Sem II\IP\DibLook-VS2013-lorena-lab2\DibLook-VS2013\diblook.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.30
